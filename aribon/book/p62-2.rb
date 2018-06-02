@@ -24,4 +24,8 @@ for i in 0..n-1
   end
 end
 
-puts "YES" if dp[K] >= 0
+if dp[K] >= 0 then
+  puts "YES"
+else
+  puts "NO"
+end
